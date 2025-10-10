@@ -56,7 +56,7 @@ function resolveVodServer2(env) {
   return DEFAULT_VOD_SERVER2;
 }
 
-const DEFAULT_BILIBILI_COOKIE = ""; // 默认 bilibili cookie
+const DEFAULT_BILIBILI_COOKIE = "buvid3=A723A5B5-E9FB-138C-DABA-FDBAE0FADF0E07310infoc; SESSDATA=16e4345a%2C1774446707%2Cb1234%2A92CjDFImYtYRchZvVf0LmrTooy1e6JCcgS393S5iGJ3iS1qc_o44dOYjtJZgBBE-fPwiASVldaWXZDQVRsbW5qMEhWUFMtV2wzS3VDQS1GTFIzMllONndfQ0hxTEhIMWZYdmZ5YVRyTlZzR3E0bUY2QnpRVVpDb29yVzFTTWtTOHFZQTFUQ3FpR3J3IIEC; bili_jct=29822afcffeeb53abaaa1d3f5f88f0a4; DedeUserID=411979672; DedeUserID__ckMd5=e626b751cd92a315; sid=gscvli67"; // 默认 bilibili cookie
 let bilibliCookie = DEFAULT_BILIBILI_COOKIE;
 
 // 这里既支持 Cloudflare env，也支持 Node process.env
