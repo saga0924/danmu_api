@@ -120,7 +120,7 @@ function resolveVodRequestTimeout(env) {
   return DEFAULT_VOD_REQUEST_TIMEOUT;
 }
 
-const DEFAULT_BILIBILI_COOKIE = "SESSDATA=16e4345a%2C1774446707%2Cb1234%2A92CjDFImYtYRchZvVf0LmrTooy1e6JCcgS393S5iGJ3iS1qc_o44dOYjtJZgBBE-fPwiASVldaWXZDQVRsbW5qMEhWUFMtV2wzS3VDQS1GTFIzMllONndfQ0hxTEhIMWZYdmZ5YVRyTlZzR3E0bUY2QnpRVVpDb29yVzFTTWtTOHFZQTFUQ3FpR3J3IIEC"; // 默认 bilibili cookie
+const DEFAULT_BILIBILI_COOKIE = ""; // 默认 bilibili cookie
 let bilibliCookie = DEFAULT_BILIBILI_COOKIE;
 
 // 这里既支持 Cloudflare env，也支持 Node process.env
